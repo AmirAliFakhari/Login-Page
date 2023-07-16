@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="/assets/Css/bootstrap5.3.css">
+    <link rel="stylesheet" href="/assets/Css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/Css/landing.css">
+</head>
+
+<body class="body_log_reg">
+    <!-- start header navbar -->
+    <div class="mt-4">
+        <nav class="navbar navbar-expand-lg glass-background me-4 rounded-4 rounded-start-0 p-0">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end  " style="background:#25164c;" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-between   ">
+                        <ul class="navbar-nav ps-xl-5 ps-lg-4 align-items-start ">
+                            <li class="nav-item order-1"><a class="nav-link" href="/html/landing.html"><img
+                                        src="/assets/img/iconlogin.svg">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/html/register.html"><img
+                                        src="/assets/img/iconreg.svg">Register</a></li>
+                        </ul>
+                        <ul
+                            class="navbar-nav  justify-content-md-end  align-items-start   d-flex justify-content-start  flex-lg-row pe-lg-3 flex-column ">
+              
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+              
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">More</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">Brokers</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4 d-md-none">
+                                <a class="nav-link" href="#">Markets</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">Community</a>
+                            </li>
+                            <li class="nav-item d-md-none ">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end header navbar-->
+    <main>
+        <form class="container-fluid px-0 needs-validation" novalidate>
+            <div class="row m-0">
+                <div class=" col-xl-5 col-md-5 bg-left d-none d-md-block p-0">
+                    <div class=""></div>
+                </div>
+                <div class="col-xxl-2 col-md-1 flex-column d-none bg-middle d-lg-flex  align-items-center justify-content-center mt-5"
+                    id="center-svg">
+                    <img class="" src="/assets/img/Line 457.png" height="200" alt="">
+                    <img class=""src="/assets/img/logo 25.png" height="120" alt="">
+                    <img class=""src="/assets/img/Line 459.svg" height="200" alt="">
+                </div>
+                <div
+                    class="col-xxl-5 col-md-4 col-11 d-flex flex-column align-items-start ms-md-5 ms-lg-0 justify-content-center ps-5 ">
+                    <div class="d-flex flex-column align-items-start justify-content-start  mb-5">
+                        <span class="bordercolory-main h1 fw-bold mt-4 mt-md-0">Login</span>
+                        <span>Welcome To Tradeland</span>
+                    </div>
+                    <div class="d-flex flex-column ">
+                        <div class="input-group mb-4 rounded  has-validation glass-background " id="input">
+                            <label class="border-end p-2 " for="validationCustomUsername"
+                                style="padding-right: 21px !important;">ID Name</label>
+                            <input type="text" class="form-control rounded border-0 text-white needs-validation "
+                                required style="background: none;">
+                            <div class="invalid-feedback font-size-validation">
+                                Filling this field is mandatory </div>
+                        </div>
+
+
+                        <div class="input-group mb-4 rounded  has-validation mt-3 glass-background" id="input">
+                            <label class="border-end p-2 " for="validationCustomUsername"
+                                style="padding-right: 17px !important;">Password</label>
+                            <input type="password"
+                                class="form-control  rounded border-0 text-white needs-validation py-1" required
+                                style="background: none;" id="toggle-pass">
+                            <i class="bi bi-eye-slash fs-4 me-2" id="iTag"
+                                style="background: none; cursor: pointer;"></i>
+                            <div class="invalid-feedback font-size-validation" font-size-validation>
+                                Filling this field is mandatory </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-xl-6  d-flex align-items-center flex-wrap-nowrap ">
+                                <a href="" class="text-white text-decoration-none" style="font-size: 10pt;">Forgot your
+                                    password?
+                                </a>
+                            </div>
+
+                            <div class="col-xl-6 d-flex align-items-center flex-wrap-nowrap">
+                                <img class="w-50" src="/assets/img/Line 458.png" alt="">
+                                <span id="span" style="font-size: 10px; margin-right: -5px;">Password
+                                    recovery</span>
+                            </div>
+
+                        </div>
+
+                        <div class="mb-5 d-flex justify-content-between col-md-flex flex-row flex-md-row ">
+                            <div class=" d-flex " style="flex-direction: column;">
+                                <a href="" class="text-white text-decoration-none " style="font-size: 12px;;">Did you
+                                    already register?
+                                </a>
+                                <a href="#" class="light-green text-decoration-none" style="width: 40%;">Register</a>
+                            </div>
+
+                            <div class=" d-flex ">
+                                <button class="border-0 next-btn rounded text-white glass-background px-lg-5 px-4 py-2 " 
+                                    style="background: none;" type="submit">Next</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </main>
+
+
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/jquery-1.12.3.min.js"></script>
+    <script src="/assets/js/bootstrap5.3.js"></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
