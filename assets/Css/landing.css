@@ -42,7 +42,7 @@ body {
 }
 
 .bg-sec2 {
-  background-image: url(../img/bg-down.png);
+  background-image: url(/img/bg-down.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -220,7 +220,7 @@ a {
   .bg-left div {
     width: 75vh !important;
     height: 95vh !important;
-    background-image: url(/assets/img/img-log.png);
+    background-image: url(../../assets/img/img-log.png);
     background-position: left !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -231,7 +231,7 @@ a {
 .bg-left div {
   width: 100%;
   height: 87vh;
-  background-image: url(/assets/img/img-log.png);
+  background-image: url(../../assets/img/img-log.png);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -417,7 +417,7 @@ a {
   position: absolute;
   width: 2.1rem;
   height: 10px;
-  background-image: url(../img/Line\ 357.svg);
+  background-image: url(/img/Line\ 357.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -432,7 +432,7 @@ a {
   position: absolute;
   width: 40rem;
   height: 10px;
-  background-image: url(../img/Line\ 383.svg);
+  background-image: url(/img/Line\ 383.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -444,7 +444,7 @@ a {
   position: absolute;
   width: 40rem;
   height: 10px;
-  background-image: url(../img/Line\ 383.svg);
+  background-image: url(/img/Line\ 383.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -453,7 +453,7 @@ a {
 
 .testline::after {
   content: "";
-  background-image: url(../img/Line\ 400.svg);
+  background-image: url(/img/Line\ 400.svg);
   width: 74%;
   height: 2.5px;
   position: absolute;
@@ -463,7 +463,7 @@ a {
 /* btn slider */
 .swiper-button-next:after {
   content: "" !important;
-  background-image: url(../img/btn-prv.svg);
+  background-image: url(/img/btn-prv.svg);
   background-size: contain;
   width: 15px;
   height: 25px;
@@ -472,7 +472,7 @@ a {
 
 .swiper-button-prev:after {
   content: "" !important;
-  background-image: url(../img/brn-next.svg);
+  background-image: url(./img/brn-next.svg);
   background-size: contain;
   width: 15px;
   height: 25px;
@@ -525,7 +525,7 @@ a {
 }
 
 .backImg-contain {
-  background-image: url(../img/bg-contin.png);
+  background-image: url(/img/bg-contin.png);
   background-size: cover;
   height: 80%;
   margin-top: 131px;
